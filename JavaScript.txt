@@ -1,0 +1,81 @@
+    window.alert('Olá') -> Uma mensagem
+    window.confirm('Está gostando de JavaScript?') -> Uma mesagem de escolha (Sim ou Cancelar)
+    window.prompt('Qual é seu nome?') -> Uma mensagem com campo de digitação para responder
+    documente.write() -> Escreve na tela
+
+    Sinal = (Recebe)
+    Sinal == (Igual)
+
+    (Number + Number) para adição
+    (String + String) para concatenação
+
+    Number.parseInt(n) -> Transformar String em Inteiro
+    Number.parseFloat(n) -> Transformar String em Float
+    Number(n) -> O próprio JavaScript decide qual o tipo da váriavel
+    String(n) ou n.toString() -> Transformar (n) em String
+
+    Template String -> Usa-se entre crase `Eu estou aprendendo ${s}`
+    var s = 'JavaScript'
+
+    s.length -> Quantos caracteres tem a String
+    s.toUpperCase() -> Transformar em MAIÚSCULAS
+    s.toLowerCase() -> Transformar em minúsculas
+
+    var n1 = 15.5
+    to.Fixed(n) -> n = números de casas decimais
+    n1.toFixed(2) = 15.50
+    n1.toFixed(5) = 15.50000
+
+    n1.toLocaleString('pt-BR', {Style: 'currency', currency: 'BRL'}) -> Mostra (R$ 15,5)
+
+    Operadores Aritméticos:
+    +  -> Adição
+    -  -> Subtração
+    *  -> Multiplicação
+    /  -> Divisão
+    %  -> Divisão Inteira (Mostra o resto da divisão -> 5/2 = 1)
+    ** -> Potenciação
+
+    Precedência dos Operadores:
+    1. ()
+    2. **
+    3. * / %
+    4. + -
+
+    Dica de atribuição:
+    n = n + 2 -> n += 2 
+    n = n - 2 -> n -= 2
+    n = n * 2 -> n *= 2
+    n = n / 2 -> n /= 2
+    n = n % 2 -> n %= 2
+    n = n ** 2 -> n **= 2
+    
+    n++ -> Incrementa 1
+    n-- -> Decrementa 1
+
+    Operadores Relacionais:
+    >  -> Maior que
+    <  -> Menor que
+    >= -> Maior ou igual
+    <= -> Menor ou igual
+    == -> Igual
+    != -> Diferente
+
+    Operadores de Identidade:
+    5 == 5    -> True
+    5 == '5'  -> True
+    5 === 5   -> True  (São do mesmo tipo)
+    5 === '5' -> False (São de tipos diferentes)
+
+    Operadores Lógicos:
+    !  -> negação (não)
+    && -> conjunção (e)
+    || -> disjunção (ou)
+
+    Operador Ternário:
+    teste ? true : false -> (10 > 5 ? 'Verdadeiro':'Falso') -> Verdadeiro
+    teste ? true : false -> (10 < 5 ? 'Verdadeiro':'Falso') -> Falso
+    
+    Criar uma varial da hora / dia atual:
+    var agora = new Date()
+    var hora = agora.getHours()
