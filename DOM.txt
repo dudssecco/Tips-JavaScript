@@ -1,0 +1,41 @@
+    window.document.write() -> Mostra na tela
+    window.document.charset -> Mostra o set de caractéres
+    window.navigator.appName -> Mostra o navegador
+    window.document.URL -> Mostra a URL do site
+
+    innerText -> Mostra somente o texto
+    innerHTML -> Mostra o HTML junto do texto
+
+
+    Métodos de Acesso:
+
+    get.ElementsByTagName() -> Marca
+        var p1 = document.getElementsByTagName('p')[0] -> Paragrafo 0
+        var p1 = document.getElementsByTagName('p')[1] -> Paragrafo 1
+        document.write(p1.innerText) -> Mostrar o que está escrito na variavel p1
+    
+    getElementsByID() -> Por ID
+        var d = window.document.getElementsById('Nome do ID')
+    
+    getElementsByName() -> Por Nome
+    getElementsByClassName() -> Por Classe
+
+    querySelector() -> Por Seletor
+        var d1 = window.document.querySelector('div#msg')
+        d1.style.color = 'black' -> Troca a cor da div com id = 'msg' para preto
+
+    Eventos DOM:
+    mouseenter -> Entrou na div
+    mousemove -> Se moveu dentro da div
+    mousedown -> Aperta o botão do mouse
+    mouseup -> Solta o botão do mouse
+    click -> Apertar e soltar o botão do mouse
+    mouseout -> Mover o mouse para fora da div
+
+    Dica de evento:
+    <div id="area" onclick="clique()" onmouseenter="entrar()" onmouseout="sair()"><div/>  -> Dentro do HTML
+
+    var a = window.document.getElementById('area') -> Dentro do Script
+    a.addEventListener('click', clique)
+    a.addEventListener('mouseenter', entrar)
+    a.addEventListener('mouseout', sair)
